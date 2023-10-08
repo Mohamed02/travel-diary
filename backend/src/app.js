@@ -18,6 +18,6 @@ mongoose.connect("mongodb://127.0.0.1:27017/travel_diaries")
     console.log(err);
 });
 
-app.listen(5000,()=>{
-    console.log("Listenting to localhost:5001");
+app.listen(80,()=>{
+    console.log("Listenting to localhost:80");
 });
