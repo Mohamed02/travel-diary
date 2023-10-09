@@ -1,7 +1,7 @@
 import User from "../models/User";
 import { compareSync, hashSync } from "bcryptjs";
 export const getAllUsers = async (req,res)=>{
-
+    window.console.log("**** get all users");
     let users;
     try {
         users= await User.find();
