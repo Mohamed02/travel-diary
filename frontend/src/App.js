@@ -22,6 +22,7 @@ function App() {
   <header><Header/></header>
   <section>
     <Routes>
+      
       <Route path="/" element={<Home/>}/>
       <Route path="/auth" element={<Auth/>}/>
       <Route path="/diaries" element={<Diaries/>}/>
