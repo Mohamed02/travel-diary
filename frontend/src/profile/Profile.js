@@ -39,10 +39,10 @@ const Profile = () => {
       Email: {user.email}
     </Typography>
     <Button sx={{mr:'auto', width:"15%"}} variant='contained' color="warning" onClick={handleLogout}> Logout</Button>
-    <Box display={"flex"} flexDirection={"Column"} justifyContent={"center"}
+    {/* <Box display={"flex"} flexDirection={"Column"} justifyContent={"center"}
     alignItems={"center"}>
       {user.posts?.map((post, index)=><DiaryItem key={index} image={post.image} title={post.title} date={post.date} location={post.location} description={post.description} id={post.id} user={user._id}/>)}
-    </Box>
+    </Box> */}
    </Box>
   )
 }
